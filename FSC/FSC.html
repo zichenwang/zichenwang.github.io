@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FSC</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href='style_FSC.css'/>
+	<!-- Bootstrap Modal -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<a href="../homepage.html">
+				<img src="icon.png" width="300" height="80">
+			</a>
+			<div class="search">
+				<form class="search-form">
+					<input type="text" placeholder="">
+					<button type="submit" class="search-btn" href="searchpage.html">
+						<a href="../SearchPage/searchpage.html" style="color: #f06a2f">Search</a>
+					</button>
+					<a href="../UserHomePage/userHome.html">
+						<button type="button" id="account" class="btn btn-default" aria-label="Left Align">
+							<span class="glyphicon glyphicon-user" aria-hidden="true">
+							</span>
+						</button>
+					</a>
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="menu">
+		<div class="container">
+			<ul class="nav">
+				<li class="active">
+					<a href="../News&Article/News&Articles.html">NEWS & ARTICLES</a>
+				</li>
+				<li>
+					<a href="../Projects/Projects.html">PROJECTS</a>
+				</li>
+				<li style="background-color:#f5b18f">
+					<a href="../Organizations/Organizations.html">ORGANIZATIONS</a>
+				</li>
+				<li class="active">
+					<a href="#">ABOUT US</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h1>Forest Stewardship Council</h1><br>
+					<p>After the 1992 Earth Summit in Rio failed to produce an agreement to stop deforestation, a group of businesses, environmentalists and community leaders came together to create the Forest Stewardship Council.</p><br>
+					<p>Gathered in the first FSC General Assembly in 1993 in Toronto, Canada, the group set out to create a voluntary, market-based approach that would improve forest practices worldwide. At the time, FSC represented an alternative to boycotts of forest products, which were shown to be counter productive since they devalued forest land. Originally headquartered in the forested region of Oaxaca, Mexico in 1994, the FSC Secretariat was relocated to Bonn, Germany in 2003. In 1995, the US chapter of the FSC was established, and is now headquartered in Minneapolis, Minnesota. Today, FSC operates in more than 80 countries, wherever forests are present.</p><br>
+				</div>
+				<button class="donate-btn" data-toggle="modal" data-target="#myModal">Donate</button>
+				<div class="modal fade" id="myModal" role="dialog">
+					<div class="modal-dialog">
+
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h5 class="user">
+									Hi, <span style="color: #ffa962;"><em>Orange</em></span> ! Thanks for your donation!
+								</h5>
+							</div>
+							<div class="modal-body">
+								<h4 class="modal-title">
+									<span style="font-size: 15px;"><em>DONATE TO: </em></span>&nbsp; <span style="color:#696969">Forest Stewardship Council</span>
+								</h4>
+								<h4 class="donate-project">
+									<span style="font-size: 15px;"><em>FOR THE PROJECT: </em></span>&nbsp; <span style="color: #696969">All</span>
+								</h4>
+								<ul>
+									<li>
+										<p style="font-size: 17px;">Donation amount: &nbsp; $ </p>
+									</li>
+									<li>
+										<input type="text" placeholder="">
+									</li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								<button class="donation" data-toggle="modal" data-target="#myModal2">
+									MAKE DONATION!
+								</button>
+								<div class="modal fade" id="myModal2" role="dialog">
+									<div class="modal-dialog modal-sm">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h5 class="modal-title">
+													Hi, <span style="color: #ffa962;"><em>Orange</em></span> !
+												</h5>
+											</div>
+											<div class="modal-body">
+												<p>Thanks for your donation!</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<a href="../FSC_Building/FSC_Building.html" class="thumbnail"> <img src="Building.jpg"><h2>
+						<div class="abstract">
+							<h4>Green Buiding</h4>
+							<p>Even in a struggling economy, green building is booming in the United States. In 2012, green building represented 25 percent of all commercial and institutional building starts and 20 percent of residential construction, up from 2 percent in 2005... </p>
+							</div>
+						</h2>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="../FSC_Ecosystem/FSC_Ecosystem.html" class="thumbnail"> <img src="Ecosystem.jpg"><h2>
+						<div class="abstract">
+							<h4>Expanding FSC certification to Ecosystem Services</h4>
+							<p>The new landmark project "ForCES - Forest Certification for Ecosystem Services" looks at what changes to the FSC system are needed over a four year period, 2011-2015, for FSC to become a global leader in the certification of ecosystem services... </p>
+							</div>
+						</h2>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="../FSC_Paper_Printing/FSC_Paper_Printing.html" class="thumbnail"> <img src="Paper_Printing.jpg"><h2>
+						<div class="abstract">
+							<h4>Paper & Printing</h4>
+							<p>Use of FSC-certified paper has exploded over the past few years, nearly becoming an industry standard. With group certification readily available for printers, the costs for achieving FSC certification have been greatly reduced. In addition, FSC-certified paper is now available in all US markets...</p>
+							</div>
+						</h2>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<ul>
+				<li>About</li>
+				<li>Terms</li>
+				<li>Send Feedback</li>
+				<li>Career</li>
+			</ul>
+			<p>&copy; 2016 KinGOranGe</p>
+		</div>
+	</div>
+</body>
+</html>

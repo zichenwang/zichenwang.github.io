@@ -1,0 +1,292 @@
+html, body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+body {
+	/*background:url("http://www.designlovefest.com/wp-content/uploads/downloads/2014/12/all.jpg") no-repeat fixed;*/
+	background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+/*HEADER*/
+.header .container{
+	min-height: 90px;
+	width: 85%;
+}
+
+.header img {
+	float: left;
+	padding-top: 10px;
+}
+
+.search {
+	float:right;
+	margin: 25px 0 0 0;
+	padding-top: 15px;
+}
+
+.search-form input {
+	background: transparent;
+	border: 0px;
+	border-bottom: 2px solid #f06a2f;
+	color: #000;
+	height: 30px;
+	width: 210px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight:400;
+}
+
+.search-form input:hover, .search-form input:focus {
+	border-bottom: 2px solid #f5b18f;
+	outline: 0px;
+}
+
+.search-btn {
+	background-color: #fff;
+	border: 2px solid #f06a2f;
+	color: #f06a2f;
+	height: 30px;
+	margin: 0 0 0 10px;
+	padding: 0 10px;
+}
+
+.search-btn:hover {
+	border: 2px solid #f5b18f;
+}
+
+#account {
+	background-color: #fff;
+	border: 2px solid #f06a2f;
+	color: #f06a2f;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+
+/*MENU*/
+.menu {
+	background: #f06a2f;
+	min-height:20px;
+	height: 30px;
+	width: 85%;
+	margin: auto;
+}
+
+.menu ul.nav {
+	list-style: none;
+	margin: 0;
+}
+
+.menu ul.nav li {
+	display: inline-block;
+	width: 20%;
+	height:30px;
+	margin: 0;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.menu ul.nav li:hover {
+	background: #f5b18f;
+}
+
+.menu ul.nav li a {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul.nav li a:hover {
+	background: transparent;
+}
+
+/*MAIN*/
+.main {
+	margin: 20px auto;
+}
+
+.main .container {
+	border: 1px solid #e1e3e3;
+	margin: auto;
+	width: 85%;
+}
+
+
+#left-blk {
+	position: relative;
+	float: left;
+	width: 20%;
+	display: inline-block;
+}
+
+#right-blk {
+	position: relative;
+	float: right;
+	width: 75%;
+	display: inline-block;
+}
+
+#user {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	height: 100px;
+}
+
+#name {
+	font-size: 30px;
+}
+
+.list-group {
+	text-align: center;
+}
+
+.list-group .active {
+	background: #f06a2f;
+}
+
+.list-group .active:hover {
+	background: #f5b18f;
+}
+
+.main .content {
+	margin: 20px 0px;
+	padding: 1em;
+	border: 1px solid #e3e1e1;
+}
+
+.main .organization {
+	margin-left: 10px;
+	clear: both;
+}
+
+.main h4 {
+	float: left;
+}
+
+.main .date {
+	float: right;
+	padding: 10px;
+}
+
+.main ul {
+	list-style: none;
+}
+
+.main ul li {
+	background: #f06a2f;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	margin: 0 10%;
+
+}
+
+.main ul li:hover {
+	background: #f5b18f;
+}
+
+.main .panel {
+	margin: 1em 0;
+}
+
+.main .buttons {
+	text-align: center;
+}
+
+.main .buttons a {
+	list-style: none;
+	color: #fff;
+}
+
+/*REVIEW*/
+.review {
+	margin: 0px; 
+	border: 1px solid #e3e1e1;
+}
+
+.review .container{
+	border:transparent;
+}
+
+.rating {
+	overflow: hidden;
+    display: inline-block;
+ }
+
+.rating-input {
+    float: right;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0 0 0 -16px;
+    opacity: 0;
+}
+
+.rating-star,.rating:hover .rating-star{
+	position: relative;
+	float: right;
+    display: block;
+    width: 16px;
+    height: 16px;      
+    background: url('http://kubyshkin.ru/samples/star-rating/star.png') 0 -16px;
+ }
+
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+}
+
+#review input {
+	margin: 0 2% 5% 2%;
+	width: 96%;
+	height: 3em;
+}
+
+#review .buttons {
+	margin-top: 2%;
+}
+
+
+.panel-heading {
+	font-weight: 2em;
+}
+
+
+/*FOOTER*/
+.footer .container{
+	clear: both;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 84%;
+}
+
+.footer ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer ul li {
+	color: #000;
+	display: inline;
+	margin: 0 40px 0 0;
+}
+
+.footer p {
+	color:#000;
+	float: right;
+}
+
+.col-md-12 img {
+	width: 100%;
+}

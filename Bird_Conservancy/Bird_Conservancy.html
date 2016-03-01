@@ -1,0 +1,226 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Bird Conservancy</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link rel='stylesheet' href='style_Bird_Conservancy.css'/>
+		<!-- Bootstrap Modal -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<a href="../homepage.html">
+					<img src="icon.png" width="300" height="80">
+				</a>
+				<div class="search">
+					<form class="search-form">
+						<input type="text" placeholder="">
+						<button type="submit" class="search-btn" href="searchpage.html">
+							<a href="../SearchPage/searchpage.html" style="color: #f06a2f">Search</a>
+						</button>
+						<a href="../UserHomePage/userHome.html">
+							<button type="button" id="account" class="btn btn-default" aria-label="Left Align">
+								<span class="glyphicon glyphicon-user" aria-hidden="true">
+								</span>
+							</button>
+						</a>
+					</form>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="menu">
+			<div class="container">
+				<ul class="nav">
+					<li class="active">
+						<a href="../News&Article/News&Articles.html">NEWS & ARTICLES</a>
+					</li>
+					<li>
+						<a href="../Projects/Projects.html">PROJECTS</a>
+					</li>
+					<li style="background-color:#f5b18f">
+						<a href="../Organizations/Organizations.html">ORGANIZATIONS</a>
+					</li>
+					<li class="active">
+						<a href="#">ABOUT US</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<h1>American Bird Conservancy</h1><br>
+						<p>Our commitment to bird conservation remains absolute, even while some other groups shift
+							their mission to prioritize people over wildlife. We believe unequivocally that conserving birds
+							and their habitats benefits all other species - including people.<p>
+							<!-- <h3>How We Conserve Birds</h3><br> -->
+							<p>Simple yet successful, our Bird Conservation Strategic Framework - summed up in the ABC pyramid - shows how we approach
+								bird conservation. We innovate, build on sound science, and work in partnership to achieve four
+								goals: halt extinctions, protect habitats, eliminate threats, and build capacity for bird conservation.</p><br>
+								<!-- <h3>Fearless Approach to Bird Conservation</h3><br> -->
+								  <!-- <p>American Bird Conservancy was born in 1994, based on the need our founder, George Fenwick, saw for a fearless bird
+									  conservation group - one that wasn't afraid to take on difficult issues like free-roaming cats and pesticides. Choosing
+									  the small but feisty hummingbird as its symbol, ABC has gone on to become known for our results and ability to leverage
+									  still great accomplishments through partnerships.</p><br> -->
+
+									  <!-- <h3>A Future Where Birds are Valued</h3><br>
+									  <p>In our 20+ years, we have found that when it comes to bird conservation, fearlessness and persistence pay off. Today,
+										  we can imagine a world in which our Vision Statement becomes reality: "An Americas-wide landscape where diverse interests
+										  collaborate to ensure that native bird species and their habitats are protected... where their protection is valued by society...
+										  and where they are routinely considered in all land-use and policy decision-making.""</p><br> -->
+
+										</div>
+										<button class="donate-btn" data-toggle="modal" data-target="#myModal">Donate</button>
+										<div class="modal fade" id="myModal" role="dialog">
+											<div class="modal-dialog">
+
+												<!-- Modal content-->
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal">&times;</button>
+														<h5 class="user">
+															Hi, <span style="color: #ffa962;"><em>Orange</em></span> ! Thanks for your donation!
+														</h5>
+													</div>
+													<div class="modal-body">
+														<h4 class="modal-title">
+															<span style="font-size: 15px;"><em>DONATE TO: </em></span>&nbsp; <span style="color:#696969">American Bird Conservancy</span>
+														</h4>
+														<h4 class="donate-project">
+															<span style="font-size: 15px;"><em>FOR THE PROJECT: </em></span>&nbsp; <span style="color: #696969">Protecting Seabirds</span>
+														</h4>
+														<ul>
+															<li>
+																<p style="font-size: 17px;">Donation amount: &nbsp; $ </p>
+															</li>
+															<li>
+																<input type="text" placeholder="">
+															</li>
+														</ul>
+													</div>
+													<div class="modal-footer">
+														<button class="donation" data-toggle="modal" data-target="#myModal2">
+															MAKE DONATION!		
+														</button>
+														<div class="modal fade" id="myModal2" role="dialog">
+															<div class="modal-dialog modal-sm">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<button type="button" class="close" data-dismiss="modal">&times;</button>
+																		<h5 class="modal-title">
+																			Hi, <span style="color: #ffa962;"><em>Orange</em></span> !
+																		</h5>
+																	</div>
+																	<div class="modal-body">
+																		<p>Thanks for your donation!</p>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-4">
+											<a href="#" class="thumbnail"> <img src="sea_brids.jpg"><h2>
+												<div class="abstract">
+													<h4>Protecting Seabirds</h4>
+													<p>Today, 15 of the world's 22 albatross species are threatened with extinction. These birds,
+														like the Short-tailed Albatross, are often overlooked since they spend the great majority
+														of their lives at sea and breed on remote islands. Petrels and many other seabirds are similarly at risk... </p>
+													</div>
+												</h2>
+											</a>
+										</div>
+										<div class="col-md-4">
+											<a href="#" class="thumbnail"> <img src="warbler.jpg"><h2>
+												<div class="abstract">
+													<h4>Saving Migratory Birds</h4>
+													<p>The Neotropical Migratory Bird Conservation Act (NMBCA): It has supported 451 conservation projects on more than 3.7
+														million acres of critical bird habitat, resulting in crucial progress for birds like the Canada Warbler and
+														rapidly declining species such as the Cerulean Warbler and Long-billed Curlew... </p>
+													</div>
+												</h2>
+											</a>
+										</div>
+										<div class="col-md-4">
+											<a href="#" class="thumbnail"> <img src="Cat-Bird-Murderer.jpg"><h2>
+												<div class="abstract">
+													<h4>Keep Cats Indoors</h4>
+													<p>Ever since the invention of kitty litter, cat owners have realized the many benefits of keeping their furry companions
+														safely indoors. Keeping cats indoors also protects birds and other wildlife from a cat's
+														instinctive predatory drive...</p>
+													</div>
+												</h2>
+											</a>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-4">
+											<a href="#" class="thumbnail"> <img src="Bird-eating-Insect.jpg"><h2>
+												<div class="abstract">
+													<h4>No Neonicotinoid Pesticides</h4>
+													<p>Please write your Member of Congress today and ask her or him to cosponsor H.R. 1284, the Saving
+														America's Pollinators Act of 2015. This bill directs the Environmental Protection Agency (EPA) to
+														suspend registration of a toxic group of pesticides called neonicotinoids...</p>
+													</div>
+												</h2>
+											</a>
+										</div>
+										<div class="col-md-4">
+											<a href="#" class="thumbnail"> <img src="spotted-owl1.jpg"><h2>
+												<div class="abstract">
+													<h4>Northern Spotted Owls</h4>
+													<p>Please write to President Obama, administration officials, and your Members of Congress today and urge them
+														to support stronger conservation measures for the endangered Northern Spotted Owl. The Northwest Forest Plan
+														which protects the owl's habitat is up for revision... </p>
+													</div>
+												</h2>
+											</a>
+										</div>
+										<div class="col-md-4">
+											<a href="#" class="thumbnail"> <img src="bird_building.jpg"><h2>
+												<div class="abstract">
+													<h4>Making Buildings Bird-safe</h4>
+													<p>Did you know that collisions with glass claim the lives of hundreds of millions of birds in the United States each year?
+														Birds that have successfully flown thousands of miles on migration can then die in seconds on a pane of glass...</p>
+													</div>
+												</h2>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="footer">
+								<div class="container">
+									<ul>
+										<li>About</li>
+										<li>Terms</li>
+										<li>Send Feedback</li>
+										<li>Career</li>
+									</ul>
+									<p>&copy; 2016 KinGOranGe</p>
+								</div>
+							</div>
+						</body>
+						</html>
